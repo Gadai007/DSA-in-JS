@@ -12,7 +12,7 @@ const subArraySum = (ar, target) => {
     }
 }
 
-// subArraySum([3,4,-7,1,3,3,1,-4], 7)
+subArraySum([3,4,-7,1,3,3,1,-4], 7)
 
 const zeroSubArraySum = (ar) => {
     for(let i =0; i < ar.length; i++){

@@ -10,4 +10,4 @@ const baseConverter = (n, b) => {
     console.log(convertedString)
 }
 
-baseConverter(1021313, 16)
+baseConverter(1021, 2)
