@@ -11,4 +11,4 @@ const GCD = (num1, num2) => {
     return num2
 }
 
-console.log(GCD(10, 15))
+console.log(GCD(4, 6))

@@ -46,13 +46,13 @@ class LinkedList {
     let current = this.head
     let previous
     let count = 0
-    let node = new Node(data)
-
+    
     while(count < index){
       previous = current
       current = current.next
       count++
     }
+    let node = new Node(data)
     node.next = current
     previous.next = node
     this.size++

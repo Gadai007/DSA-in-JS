@@ -3,7 +3,6 @@ var sortColors = function(nums) {
     let count1 = 0;
     let count2 = 0;
   
-    let newArray = [];
     for (let i = 0; i < nums.length; i++) {
       if (nums[i] === 0) {
         count0++;
@@ -29,4 +28,8 @@ var sortColors = function(nums) {
       count2--;
       i++
     }
+    return nums
   };
+
+  console.log(sortColors([1,1,1,0,1,0,2,2,1,0]))
+
