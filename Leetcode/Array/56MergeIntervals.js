@@ -14,3 +14,6 @@ const merge = function (nums) {
   }
   return result;
 };
+
+
+//https://www.youtube.com/watch?v=LvygwImtvEw&t=611s

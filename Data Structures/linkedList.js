@@ -1,11 +1,11 @@
-class Node {
+export class Node {
   constructor(data, next = null) {
     this.data = data;
     this.next = next;
   }
 }
 
-class LinkedList {
+export class LinkedList {
   constructor() {
     this.head = null;
     this.size = 0;
@@ -111,13 +111,4 @@ class LinkedList {
   }
 }
 
-let ll = new LinkedList()
 
-ll.insertFirst(100)
-ll.insertFirst(200)
-ll.insertFirst(300)
-ll.insertFirst(400)
-ll.insertLast(500)
-ll.inserAt(350, 1)
-ll.getAtIndex(5)
-ll.printLinkedList()
