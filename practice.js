@@ -1,10 +1,9 @@
-const lengthOfLIS = (nums = []) => {
-    let count1 = 1
-    for(let i = 0; i < nums.length; i++){
-        let count2 = 1
-        for(let j = i+1; j < nums.length; j++){
-            
-        }
-    }
-}
 
+for(var i = 0; i < 5; i++){
+    function scope(x){
+        setTimeout(() => {
+            console.log(x)
+        }, 1000)
+    }
+    scope(i)
+}
