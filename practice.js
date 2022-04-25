@@ -7,3 +7,5 @@ for(var i = 0; i < 5; i++){
     }
     scope(i)
 }
+
+console.log("testing out git");
