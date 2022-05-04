@@ -13,12 +13,7 @@ const multiply = (...args) => {
         }
         return temp
     }
+    scope(i)
 }
 
-
-
-
-
-
-console.log(multiply(2)(2)())
-
+console.log("testing out git");
